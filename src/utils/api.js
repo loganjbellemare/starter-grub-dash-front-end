@@ -3,8 +3,7 @@
  * The default values is overridden by the `API_BASE_URL` environment variable.
  */
 const API_BASE_URL =
-  process.env.API_BASE_URL ||
-  "https://restaurant-reservation-app-client-4mrs.onrender.com";
+  process.env.API_BASE_URL || "https://thinkful-grub-dash.onrender.com";
 
 /**
  * Defines the default headers for these functions to work with `json-server`
